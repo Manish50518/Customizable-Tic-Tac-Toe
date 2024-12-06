@@ -1,6 +1,7 @@
 # Customizable Tic-Tac-Toe
 
 Welcome to **Customizable Tic-Tac-Toe**, an enhanced version of the classic game with customizable options for grid size and win conditions!
+This project was developed as part of an assignment for **WYB Company**, focusing on creating a dynamic and interactive version of the classic Tic-Tac-Toe game with customizable features.
 
 ## 🚀 Live Demo
 
