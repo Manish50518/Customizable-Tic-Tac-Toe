@@ -102,7 +102,7 @@ window.addEventListener("DOMContentLoaded", () => {
     if (winner === "X") playerXScore++;
     else playerOScore++;
     playerScoreTxt.innerHTML = `${playerXScore} - ${playerOScore}`;
-    playerTurnTxt.innerHTML = `🎉🥳 Player ${winner} wins! 🥳🎉`;
+    playerTurnTxt.innerHTML = `🎉🎊🥳 Player ${winner} wins! 🥳🎊🎉`;
     playerTurnTxt.classList.add("winner");
   };
 
@@ -150,9 +150,9 @@ window.addEventListener("DOMContentLoaded", () => {
   const endGame = () => {
     const winner =
       playerXScore > playerOScore
-        ? `Player <span style="color: #09c6f9;">X</span> won 🥳🥳🎉`
+        ? `Player <span style="color: #09c6f9;">X</span> won 🥳🥳🎊🎉`
         : playerOScore > playerXScore
-        ? `Player <span style="color: #e9902a;">O</span> won 🥳🥳🎉`
+        ? `Player <span style="color: #e9902a;">O</span> won 🥳🥳🎊🎉`
         : "It's a tie! 😑😑";
 
     gameDetails.innerHTML = `Game Over! ${winner}`;
